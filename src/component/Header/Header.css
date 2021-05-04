@@ -1,0 +1,45 @@
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../image/header-bg/image7.jpg);
+  background-size: cover;
+}
+
+.overlay {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.644);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__content {
+  transform: translateY(-20px);
+  color: #ffffff;
+}
+
+.header__content p {
+  font-size: 30px;
+}
+
+.header__content h1 {
+  font-size: 60px;
+}
+.header__content h5 {
+  font-size: 24px;
+  text-align: right;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .header__content p {
+    font-size: 26px;
+  }
+  .header__content h1 {
+    font-size: 40px;
+  }
+  .header__content h5 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,97 @@
+.contacts {
+  padding: 20px 0;
+  background-color: #253c55;
+}
+
+.contact__text {
+  color: #c5c5c5;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+.contact__content {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #ffffff;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+  .contact__content {
+    font-size: 20px;
+  }
+}
+
+.icon__td {
+  padding-right: 20px;
+}
+
+.contact__content table {
+  margin: 0 0 30px 50px;
+}
+
+.contact__content table tr {
+  height: 30px;
+}
+
+.icon_heading {
+  margin-bottom: 10px;
+}
+
+.icon_container {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  transition: color, background 0.5s;
+}
+
+.facebook {
+  color: #3b5999;
+}
+.facebook:hover {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.twitter {
+  color: #55acee;
+}
+.twitter:hover {
+  background-color: #55acee;
+  color: #ffffff;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+.linkedin:hover {
+  background-color: #0077b5;
+  color: #ffffff;
+}
+
+.github {
+  color: #333333;
+}
+.github:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.copyright {
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0 0 0;
+}

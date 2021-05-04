@@ -1,0 +1,26 @@
+.navbar {
+  text-align: center;
+  background-color: #505050;
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  line-height: 50px;
+}
+
+.navbar a {
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #333333;
+}
+
+@media (max-width: 420px) {
+  .navbar a {
+    padding: 16px 8px;
+  }
+}
