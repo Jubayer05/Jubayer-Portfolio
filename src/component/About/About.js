@@ -20,7 +20,7 @@ const About = () => {
             className="resume__btn"
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1MSy2FDB01bcwYKNk0cEm21x2ixmts5iX/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IRO4fuT1kbk6kWfNiMkxFNZwThFlDnH1/view?usp=sharing"
           >
             Download Resume
           </a>
